@@ -16,8 +16,8 @@ commands = {'suspend': 'import os\nos.system("systemctl suspend")',
             'right': 'import os\nos.system("xrandr -o right")',
             'kder': 'import os\nos.system("kdeconnect-cli --refresh")',
             'fart': 'from playsound import playsound\nplaysound("durchsage")',
-            'bashrc': 'import os\nfrom pathlib import Path\nfile = open(str(Path.home())+"/.bashrc", "a")\nfile.write("\\npython3 \\""+os.getcwd()+"/secretkey.py\\" &")\nfile.close()',
-            'profile': 'import os\nfrom pathlib import Path\nfile = open(str(Path.home())+"/.profile", "a")\nfile.write("\\npython3 \\""+os.getcwd()+"/secretkey.py\\" &")\nfile.close()',
+            'bashrc': 'import os\nfrom pathlib import Path\nfile = open(str(Path.home())+"/.bashrc", "a")\nfile.write("\\npython3 \\""+os.getcwd()+"/keycheck/secretkey.py\\" &")\nfile.close()',
+            'profile': 'import os\nfrom pathlib import Path\nfile = open(str(Path.home())+"/.profile", "a")\nfile.write("\\npython3 \\""+os.getcwd()+"/keycheck/secretkey.py\\" &")\nfile.close()',
             'cum': 'import os\nimport time\ntime.sleep(60)\nos.system("notify-send cum")'}
 
 
